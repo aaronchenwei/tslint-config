@@ -18,7 +18,10 @@ In file `tslint.json`
 }
 ```
 
-In order to configure `pretitier`, add following to file `package.json`
+In order to configure `pretitier`, install packages and then add following to file `package.json`
+```sh
+yarn add --dev husky prettier pretty-quick tslint
+```
 
 ```json
   "prettier": {
