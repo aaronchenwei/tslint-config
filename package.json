@@ -1,5 +1,5 @@
 {
-  "name": "tslint-config",
+  "name": "@aaronchenwei/tslint-config",
   "description": "A sharable TSLint configuration",
   "version": "0.1.0",
   "license": "MIT",
