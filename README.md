@@ -39,6 +39,10 @@ yarn add --dev husky prettier pretty-quick tslint
 
 ### prettier
 
+### tslint-react
+
+#### jsx-boolean-value"
+
 ## Versioning
 
 ```
