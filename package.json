@@ -1,0 +1,40 @@
+{
+  "name": "tslint-config",
+  "description": "A sharable TSLint configuration",
+  "version": "0.1.0",
+  "license": "MIT",
+  "main": "tslint.js",
+  "scripts": {
+    "clean": "rimraf node_modules"
+  },
+  "dependencies": {
+    "tslint-config-airbnb": "^5.11.0",
+    "tslint-config-prettier": "^1.15.0",
+    "tslint-consistent-codestyle": "^1.13.2",
+    "tslint-eslint-rules": "^5.3.1",
+    "tslint-microsoft-contrib": "~5.2.1",
+    "tslint-plugin-prettier": "^2.0.0",
+    "tslint-react": "^3.6.0"
+  },
+  "devDependencies": {
+    "husky": "^1.1.2",
+    "prettier": "^1.13.4",
+    "pretty-quick": "^1.6.0"
+  },
+  "peerDependencies": {
+    "tslint": "^5.5.0"
+  },
+  "keywords": [
+    "tslint",
+    "typescript"
+  ],
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+}
