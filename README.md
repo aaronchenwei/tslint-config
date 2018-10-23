@@ -17,3 +17,17 @@ In file `tslint.json`
   "extends": ["@aaronchenwei/tslint-config"]
 }
 ```
+
+## Versioning
+
+```
++----- Major version.
+| +--- Minor version has BREAKING CHANGE and feat.
+| | +- Patch version has patch.
+| | |
+x.x.x
+```
+
+## License
+
+MIT
