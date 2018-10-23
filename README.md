@@ -18,6 +18,24 @@ In file `tslint.json`
 }
 ```
 
+In order to configure `pretitier`, add following to file `package.json`
+
+```json
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  }
+```
+
+## Rules
+
+### prettier
+
 ## Versioning
 
 ```
