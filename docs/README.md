@@ -1,6 +1,15 @@
 # Rules
 
-## prettier
+## [tslint-plugin-prettier](https://github.com/ikatyang/tslint-plugin-prettier)
+```javascript
+    prettier: [
+      true,
+      {
+        singleQuote: true,
+        trailingComma: 'es5',
+      },
+    ],
+```
 
 ## [tslint-react](https://github.com/palantir/tslint-react#rules)
 
