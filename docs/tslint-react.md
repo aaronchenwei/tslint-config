@@ -36,7 +36,7 @@
   </div>
   ```
 
-- [`jsx-ban-props` (since v2.3.0)](https://github.com/palantir/tslint-react#rules)
+- [`jsx-ban-props`](https://github.com/palantir/tslint-react#rules)
 
   - default: not set
   - example:
