@@ -8,7 +8,7 @@ module.exports = {
     'tslint-config-prettier',
   ],
   rules: {
-    // prettier
+    // tslint-plugin-prettier
     prettier: [
       true,
       {
@@ -20,7 +20,7 @@ module.exports = {
     // override default rules
     'array-type': [true, 'array'],
 
-    "arrow-return-shorthand": true,
+    'arrow-return-shorthand': true,
 
     'import-name': false, // #tslint-microsoft-contrib
     'member-access': [true, 'no-public'],
