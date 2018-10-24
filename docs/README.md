@@ -12,6 +12,23 @@ prettier: [
 ],
 ```
 
+## [tslint-react](https://github.com/palantir/tslint-react)
+
+- [`jsx-boolean-value`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md)
+
+  - Rule options: `["always", "never"]`
+  - change the tslint-react default value to: [true, 'never']
+
+  ```ts
+  // Good:
+  <Router exact path="/" />;
+
+  // Bad:
+  <Router exact={true} path="/" />;
+  ```
+
+- [`jsx-alignment`](https://github.com/palantir/tslint-react#rules)
+
 - [`jsx-curly-spacing`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-curly-spacing.md)
 
 - [`jsx-equals-spacing`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-equals-spacing.md)
