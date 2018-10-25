@@ -20,11 +20,11 @@ prettier: [
   - change the tslint-react default value to: [true, 'never']
 
   ```ts
-  // Good:
-  <Router exact path="/" />;
-
   // Bad:
   <Router exact={true} path="/" />;
+  
+  // Good:
+  <Router exact path="/" />;
   ```
 
 - [`jsx-alignment`](https://github.com/palantir/tslint-react#rules)
@@ -43,10 +43,6 @@ prettier: [
 
 - [`jsx-no-string-ref`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-string-refs.md)
 
-- [`jsx-use-translation-function`](https://github.com/palantir/tslint-react#rules)
-
 - [`jsx-self-close`](https://github.com/palantir/tslint-react#rules)
-
-- [`jsx-space-before-trailing-slash`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md)
 
 - [`jsx-wrap-multiline`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-wrap-multilines.md)
