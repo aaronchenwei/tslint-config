@@ -70,4 +70,3 @@
 - [`jsx-use-translation-function`](https://github.com/palantir/tslint-react#rules)
 
 - [`jsx-space-before-trailing-slash`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md)
-
