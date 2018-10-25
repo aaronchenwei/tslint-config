@@ -1,4 +1,4 @@
-## [tslint-react](https://github.com/palantir/tslint-react#rules)
+# [tslint-react](https://github.com/palantir/tslint-react#rules)
 
 - [`jsx-ban-elements`](https://github.com/palantir/tslint-react#rules)
 
@@ -6,7 +6,7 @@
   - example:
     When `jsx-ban-elements` is set as follows: [reference from tslint-react test rules](https://github.com/palantir/tslint-react/blob/master/test/rules/jsx-ban-elements/tslint.json)
 
-  ```
+  ```json
   {
     "rules": {
         "jsx-ban-elements": {
@@ -42,7 +42,7 @@
   - example:
     When `jsx-ban-props` is set as follows: [reference from tslint-react test rules](https://github.com/palantir/tslint-react/blob/master/test/rules/jsx-ban-props/tslint.json)
 
-  ```
+  ```json
   {
     "rules": {
         "jsx-ban-props": [true, ["foo"], ["bar", "It is obsolete."]]
@@ -66,3 +66,8 @@
   // Good:
   <button type="button">bar</button>
   ```
+
+- [`jsx-use-translation-function`](https://github.com/palantir/tslint-react#rules)
+
+- [`jsx-space-before-trailing-slash`](https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-space-before-closing.md)
+
