@@ -71,6 +71,14 @@ module.exports = {
     'jsx-wrap-multiline': true,
     */
 
+    // not configured in default
+    /*
+    'jsx-ban-elements': false,
+    'jsx-ban-props': false,
+    'jsx-use-translation-function': false,
+    'jsx-space-before-trailing-slash': false,
+    */
+    
     // override tslint rules
     'jsx-boolean-value': [true, 'never'],
   },
