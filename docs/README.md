@@ -2,14 +2,34 @@
 
 ## [tslint-plugin-prettier](https://github.com/ikatyang/tslint-plugin-prettier)
 
-```javascript
-prettier: [
+```json
+"prettier": [
   true,
   {
-    singleQuote: true,
-    trailingComma: 'es5',
+    "singleQuote": true,
+    "trailingComma": "es5",
   },
 ],
+```
+
+## [tslint](https://github.com/palantir/tslint)
+
+### `array-type`
+
+Requires using either `T[]` or `Array` for arrays.
+
+#### Config
+
+One of the following arguments must be provided:
+
+- `"array"` enforces use of `T[]` for all types T.
+- `"generic"` enforces use of `Array<T>` for all types T.
+- `"array-simple"` enforces use of `T[]` if `T` is a simple type (primitive or type reference).
+
+#### Override
+
+```json
+"array-type": [true, "array"]
 ```
 
 ## [tslint-react](https://github.com/palantir/tslint-react)
