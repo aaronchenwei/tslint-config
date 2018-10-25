@@ -8,7 +8,9 @@ module.exports = {
     'tslint-config-prettier',
   ],
   rules: {
-    // tslint-plugin-prettier
+    /**
+     * tslint-plugin-prettier
+     */
     prettier: [
       true,
       {
@@ -51,7 +53,25 @@ module.exports = {
       'allow-pascal-case',
     ],
 
-    // tslint-react
+    /**
+     * tslint-react
+     */
+    // default tslint rules
+    /*
+    'jsx-alignment': true,
+    'jsx-boolean-value': true,
+    'jsx-curly-spacing': [true, 'never'],
+    'jsx-equals-spacing': [true, 'never'],
+    'jsx-key': true,
+    'jsx-no-bind': true,
+    'jsx-no-lambda': true,
+    'jsx-no-multiline-js': true,
+    'jsx-no-string-ref': true,
+    'jsx-self-close': true,
+    'jsx-wrap-multiline': true,
+    */
+
+    // override tslint rules
     'jsx-boolean-value': [true, 'never'],
   },
 };
