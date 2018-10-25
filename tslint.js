@@ -78,7 +78,7 @@ module.exports = {
     'jsx-use-translation-function': false,
     'jsx-space-before-trailing-slash': false,
     */
-    
+
     // override tslint rules
     'jsx-boolean-value': [true, 'never'],
   },
