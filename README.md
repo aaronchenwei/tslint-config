@@ -43,7 +43,7 @@ yarn add --dev husky prettier pretty-quick tslint
 
 ```sh
 +----- Major version.
-| +--- Minor version has BREAKING CHANGE and feat.
+| +--- Minor version has BREAKING CHANGE and feature.
 | | +- Patch version has patch.
 | | |
 x.x.x
