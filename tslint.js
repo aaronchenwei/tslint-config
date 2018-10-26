@@ -2,7 +2,7 @@ module.exports = {
   defaultSeverity: 'warning',
   rulesDirectory: ['tslint-plugin-prettier'],
   extends: [
-    'tslint:recommended',
+    'tslint:latest',
     'tslint-react',
     'tslint-config-airbnb',
     'tslint-config-prettier',
@@ -81,5 +81,14 @@ module.exports = {
 
     // override tslint rules
     'jsx-boolean-value': [true, 'never'],
+
+    /**
+     * tslint-config-prettier
+     */
+    'jsx-alignment': false,
+    'jsx-curly-spacing': false,
+    'jsx-equals-spacing': false,
+    'jsx-no-multiline-js': false,
+    'jsx-wrap-multiline': false,
   },
 };
