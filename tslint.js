@@ -180,5 +180,9 @@ module.exports = {
      * tslint-consistent-codestyle
      */
     'object-shorthand-properties-first': true,
+
+    /**
+     * tslint-eslint-rules
+     */
   },
 };
