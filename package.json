@@ -8,7 +8,7 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "clean": "rimraf node_modules"
+    "tslint-check": "tslint-config-prettier-check ./tslint.js"
   },
   "dependencies": {
     "tslint-config-airbnb": "^5.11.0",
@@ -23,13 +23,14 @@
     "husky": "^1.1.2",
     "prettier": "^1.13.4",
     "pretty-quick": "^1.6.0",
-    "tslint": "^5.11.0"
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.3"
   },
   "peerDependencies": {
     "husky": "^1.1.2",
     "prettier": "^1.13.4",
     "pretty-quick": "^1.6.0",
-    "tslint": "^5.5.0",
+    "tslint": "^5.11.0",
     "typescript": "^3.0.0"
   },
   "keywords": [
