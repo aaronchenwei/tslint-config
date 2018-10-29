@@ -8,7 +8,7 @@ This is an opinioned tslint configuration with pretitier.
 ## Installation
 
 ```sh
-yarn add --dev @aaronchenwei/tslint-config
+yarn add --dev @aaronchenwei/tslint-config tslint-config-prettier
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ In file `tslint.json`
 
 ```json
 {
-  "extends": ["@aaronchenwei/tslint-config"]
+  "extends": ["@aaronchenwei/tslint-config", "tslint-config-prettier"]
 }
 ```
 
