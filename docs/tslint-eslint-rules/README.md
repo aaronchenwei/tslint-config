@@ -6,26 +6,26 @@
 
 - Usage:
 
-``` ts
+```ts
 "no-extra-semi": true
 ```
 
 - Examples:
 
-``` ts
+```ts
 // Bad
-const x = 5;;
+const x = 5;
 
 function foo() {
-    // code
-};
+  // code
+}
 ```
 
-``` ts
+```ts
 // Good
 const x = 5;
 
 const foo = () => {
-    // code
+  // code
 };
 ```
