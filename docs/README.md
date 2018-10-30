@@ -12,9 +12,15 @@ Following rules directory are in use for this `tslint-config` project.
 
 ## [tslint-react](./tslint-react)
 
-## [tslint-plugin-prettier](https://github.com/ikatyang/tslint-plugin-prettier)
+## [tslint-microsoft-contrib](./tslint-microsoft-contrib)
 
-`tslint-plugin-prettier` runs Prettier as a TSLint rule and reports differences as individual TSLint issues.
+## [tslint-consistent-codestyle](./tslint-consistent-codestyle)
+
+## [tslint-eslint-rules](./tslint-eslint-rules)
+
+## tslint-plugin-prettier
+
+[`tslint-plugin-prettier`](https://github.com/ikatyang/tslint-plugin-prettier) runs `Prettier` as a `TSLint` rule and reports differences as individual `TSLint` issues.
 
 ```json
 "prettier": [
