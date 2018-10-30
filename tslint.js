@@ -227,5 +227,6 @@ module.exports = {
     /**
      * tslint-eslint-rules
      */
+    'no-extra-semi': true,
   },
 };
