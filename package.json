@@ -11,7 +11,7 @@
     "tslint-check": "tslint-config-prettier-check ./tslint.js"
   },
   "dependencies": {
-    "tslint-consistent-codestyle": "^1.13.2",
+    "tslint-consistent-codestyle": "^1.14.0",
     "tslint-eslint-rules": "^5.3.1",
     "tslint-microsoft-contrib": "~5.2.1",
     "tslint-plugin-prettier": "^2.0.1",
@@ -23,7 +23,7 @@
     "pretty-quick": "^1.6.0",
     "tslint": "^5.11.0",
     "tslint-config-prettier": "^1.15.0",
-    "typescript": "^3.1.4"
+    "typescript": "^3.1.5"
   },
   "peerDependencies": {
     "husky": "^1.1.0",
