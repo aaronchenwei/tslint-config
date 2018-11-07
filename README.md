@@ -8,7 +8,7 @@ This is an opinioned tslint configuration with pretitier.
 ## Installation
 
 ```sh
-yarn add --dev @aaronchenwei/tslint-config tslint-config-prettier
+yarn add --dev @aaronchenwei/tslint-config tslint-config-prettier tslint
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ In file `tslint.json`
 In order to configure `pretitier`, install packages and then add following to file `package.json`
 
 ```sh
-yarn add --dev husky prettier pretty-quick tslint
+yarn add --dev husky prettier pretty-quick
 ```
 
 ```json
