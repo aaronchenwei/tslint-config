@@ -1,4 +1,4 @@
-# tslint Configuration
+# `tslint` Configuration
 
 ## Severity
 
