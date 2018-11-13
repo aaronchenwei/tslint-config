@@ -3,11 +3,17 @@ const path = require('path');
 module.exports = {
   defaultSeverity: 'warning',
   rulesDirectory: [
-    'tslint-plugin-prettier',
-    'tslint-consistent-codestyle',
-    'tslint-eslint-rules',
-    path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './'),
+    path.join(path.dirname(require.resolve('tslint-plugin-prettier')), 'rules'),
     path.join(path.dirname(require.resolve('tslint-react')), 'rules'),
+    path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './'),
+    path.join(
+      path.dirname(require.resolve('tslint-consistent-codestyle')),
+      'rules'
+    ),
+    path.join(
+      path.dirname(require.resolve('tslint-eslint-rules')),
+      'dist/rules'
+    ),
   ],
   rules: {
     /**
