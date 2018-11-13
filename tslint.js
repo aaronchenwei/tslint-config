@@ -179,7 +179,7 @@ module.exports = {
     'import-name': false,
     'informative-docs': true,
     'insecure-random': true,
-    'jquery-deferred-must-complete': false,
+    'jquery-deferred-must-complete': true,
     'max-func-body-length': false,
     'missing-jsdoc': false, // Deprecated
     'missing-optional-annotation': false, // Deprecated
@@ -188,45 +188,176 @@ module.exports = {
     'mocha-unneeded-done': false,
     'no-backbone-get-set-outside-model': false,
     'no-banned-terms': true,
-    'no-constant-condition': false,
+    'no-constant-condition': true,
     'no-control-regex': false,
-    'no-cookies': false,
+    'no-cookies': true,
     'no-delete-expression': true,
     'no-disable-auto-sanitization': true,
     'no-document-domain': true,
     'no-document-write': true,
-    'no-eval': true,
+    'no-duplicate-case': false, // Deprecated
+    'no-duplicate-parameter-names': false, // Deprecated
+    'no-empty-interfaces': false, // Deprecated
+    'no-empty-line-after-opening-brace': false,
     'no-exec-script': true,
+    'no-for-in': true,
     'no-function-constructor-with-string-args': true,
+    'no-function-expression': true,
     'no-http-string': [
       true,
       'http://www.example.com/?.*',
       'http://localhost:?.*',
     ],
+    'no-increment-decrement': true,
     'no-inner-html': true,
+    'no-invalid-regexp': false,
+    'no-jquery-raw-elements': true,
+    'no-missing-visibility-modifiers': false, // Deprecated
+    'no-multiline-string': false,
+    'no-multiple-var-decl': false, // Deprecated
     'no-octal-literal': true,
+    'no-regex-spaces': false,
+    'no-relative-imports': false, // TODO
     'no-reserved-keywords': true,
+    'no-single-line-block-comment': true,
+    'no-stateless-class': false, // Deprecated
     'no-string-based-set-immediate': true,
     'no-string-based-set-interval': true,
     'no-string-based-set-timeout': true,
+    'no-suspicious-comment': true, // TODO
+    'no-typeof-undefined': true,
+    'no-unexternalized-strings': false, // TODO
+    'no-unnecessary-bind': true,
+    'no-unnecessary-field-initialization': true,
+    'no-unnecessary-local-variable': true,
+    'no-unnecessary-override': true,
+    'no-unnecessary-semicolons': true,
+    'no-unsupported-browser-code': true,
+    'no-useless-files': true,
+    'no-var-self': false, // Deprecated
+    'no-with-statement': true,
+    'non-literal-fs-path': true,
     'non-literal-require': true,
     'possible-timing-attack': true,
+    'prefer-array-literal': true,
+    'prefer-type-cast': false, // TODO
+    'promise-must-complete': true,
+    'react-a11y-anchors': true,
+    'react-a11y-aria-unsupported-elements': true,
+    'react-a11y-event-has-role': true,
+    'react-a11y-image-button-has-alt': true,
+    'react-a11y-img-has-alt': true,
+    'react-a11y-input-elements': true,
+    'react-a11y-lang': true,
+    'react-a11y-meta': true,
+    'react-a11y-no-onchange': true,
+    'react-a11y-props': true,
+    'react-a11y-proptypes': true,
+    'react-a11y-required': true,
+    'react-a11y-role': true,
+    'react-a11y-role-has-required-aria-props': true,
+    'react-a11y-role-supports-aria-props': true,
+    'react-a11y-tabindex-no-positive': true,
+    'react-a11y-titles': true,
     'react-anchor-blank-noopener': true,
     'react-iframe-missing-sandbox': true,
     'react-no-dangerous-html': true,
-
-    'no-function-constructor-with-string-args': true,
-    'import-name': false,
-    'prefer-array-literal': true,
+    'react-this-binding-issue': true,
+    'react-tsx-curly-spacing': false, // Deprecated
+    'react-unused-props-and-state': true,
+    'underscore-consistent-invocation': true,
+    'use-named-parameter': true,
+    'valid-typeof': false,
 
     /**
      * tslint-consistent-codestyle
      */
+    'const-parameters': false, // tslint:no-parameter-reassignment
+    'early-exit': false,
+    'ext-curly': false, // tslint:curly
+    'naming-convention': false, // TODO
+    'no-as-type-assertion': false, // TODO
+    'no-accessor-recursion': true,
+    'no-collapsible-if': false,
+    'no-else-after-return': false, // TODO
+    'no-return-undefined': [true, 'allow-void-expression'],
+    'no-static-this': false,
+    'no-unnecessary-else': false, // TODO
+    'no-unnecessary-type-annotation': false,
+    'no-unused': false,
+    'no-var-before-return': false,
     'object-shorthand-properties-first': true,
+    'parameter-properties': false, // TODO
+    'prefer-const-enum': false, // TODO
+    'prefer-while': false,
 
     /**
      * tslint-eslint-rules
      */
-    'no-extra-semi': true,
+    // Possible Errors
+    'no-constant-condition': false, // tslint-microsoft-contrib:no-constant-condition
+    'no-control-regex': false,
+    'no-duplicate-case': false,
+    'no-empty-character-class': false,
+    'no-ex-assign': true,
+    'no-extra-boolean-cast': true,
+    'no-extra-semi': false, // TODO
+    'no-inner-declarations': false,
+    'no-invalid-regexp': false,
+    'no-regex-spaces': false,
+    'no-unexpected-multiline': false,
+    'ter-no-irregular-whitespace': true,
+    'ter-no-sparse-arrays': false,
+    'valid-jsdoc': false,
+    'valid-typeof': true,
+
+    // Best Practices
+    'no-multi-spaces': false,
+    'ter-no-proto': false, // TODO
+    'ter-no-script-url': true,
+    'ter-no-self-compare': true,
+
+    // Node.js and CommonJS
+    'handle-callback-err': false,
+
+    // Stylistic Issues
+    'array-bracket-spacing': false,
+    'block-spacing': false,
+    'brace-style': false,
+    'ter-computed-property-spacing': false,
+    'ter-func-call-spacing': false,
+    'ter-indent': false,
+    'ter-max-len': false,
+    'ter-newline-after-var': true, // TODO
+    'ter-no-mixed-spaces-and-tabs': false,
+    'object-curly-spacing': false,
+    'ter-padded-blocks': false,
+    'sort-imports': false, // TODO
+    'space-in-parens': false,
+    'ter-no-tabs': false,
+
+    // ECMAScript 6
+    'ter-arrow-body-style': [
+      true,
+      'as-needed',
+      {
+        requireReturnForObjectLiteral: true,
+      },
+    ],
+    'ter-arrow-parens': [
+      true,
+      'as-needed',
+      {
+        requireForBlockBody: true,
+      },
+    ],
+    'ter-arrow-spacing': false,
+    'ter-prefer-arrow-callback': [
+      true,
+      {
+        allowNamedFunctions: true,
+        allowUnboundThis: false,
+      },
+    ],
   },
 };
