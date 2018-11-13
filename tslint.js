@@ -3,12 +3,12 @@ const path = require('path');
 module.exports = {
   defaultSeverity: 'warning',
   rulesDirectory: [
-    path.join(path.dirname(require.resolve('tslint-plugin-prettier')), 'rules'),
+    path.join(path.dirname(require.resolve('tslint-plugin-prettier')), './'),
     path.join(path.dirname(require.resolve('tslint-react')), 'rules'),
     path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './'),
     path.join(
       path.dirname(require.resolve('tslint-consistent-codestyle')),
-      'rules'
+      './'
     ),
     path.join(
       path.dirname(require.resolve('tslint-eslint-rules')),
@@ -237,7 +237,7 @@ module.exports = {
     'no-unnecessary-field-initialization': true,
     'no-unnecessary-local-variable': true,
     'no-unnecessary-override': true,
-    'no-unnecessary-semicolons': true,
+    'no-unnecessary-semicolons': false,
     'no-unsupported-browser-code': true,
     'no-useless-files': true,
     'no-var-self': false, // Deprecated
@@ -312,7 +312,7 @@ module.exports = {
     'no-invalid-regexp': false,
     'no-regex-spaces': false,
     'no-unexpected-multiline': false,
-    'ter-no-irregular-whitespace': true,
+    'ter-no-irregular-whitespace': false,
     'ter-no-sparse-arrays': false,
     'valid-jsdoc': false,
     'valid-typeof': true,
@@ -350,13 +350,7 @@ module.exports = {
         requireReturnForObjectLiteral: true,
       },
     ],
-    'ter-arrow-parens': [
-      true,
-      'as-needed',
-      {
-        requireForBlockBody: true,
-      },
-    ],
+    'ter-arrow-parens': false,
     'ter-arrow-spacing': false,
     'ter-prefer-arrow-callback': [
       true,
