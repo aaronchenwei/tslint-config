@@ -1616,10 +1616,10 @@ tslint-eslint-rules@^5.3.1:
     tslib "1.9.0"
     tsutils "^3.0.0"
 
-tslint-microsoft-contrib@~5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-5.2.1.tgz#a6286839f800e2591d041ea2800c77487844ad81"
-  integrity sha512-PDYjvpo0gN9IfMULwKk0KpVOPMhU6cNoT9VwCOLeDl/QS8v8W2yspRpFFuUS7/c5EIH/n8ApMi8TxJAz1tfFUA==
+tslint-microsoft-contrib@^6.0.0-beta:
+  version "6.0.0-beta"
+  resolved "https://registry.yarnpkg.com/tslint-microsoft-contrib/-/tslint-microsoft-contrib-6.0.0-beta.tgz#fee685160542d1374a7db47964fed053287a567e"
+  integrity sha512-IQTYI19zITMFAatlYdSyIf9A74c9ODiKFasfLLzwL1VrdyFxf57CGRVb5S0V6UsaYFDNfvDWkBzKWluaIUREUQ==
   dependencies:
     tsutils "^2.27.2 <2.29.0"
 
