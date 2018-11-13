@@ -1,7 +1,7 @@
 {
   "name": "@aaronchenwei/tslint-config",
   "description": "A sharable TSLint configuration",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "license": "MIT",
   "main": "tslint.js",
   "repository": {
