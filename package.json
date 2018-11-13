@@ -4,6 +4,13 @@
   "version": "0.3.0",
   "license": "MIT",
   "main": "tslint.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aaronchenwei/tslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aaronchenwei/tslint-config/issues"
+  },
   "engines": {
     "node": ">=8.0.0"
   },
