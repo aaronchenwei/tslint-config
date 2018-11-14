@@ -32,6 +32,9 @@ module.exports = {
      * tslint
      * tslint:all is in use by default.
      */
+    'member-access': [true, 'no-public'],
+    'no-console': false,
+    'object-literal-sort-keys': false,
 
     /**
      * tslint-react
@@ -61,7 +64,7 @@ module.exports = {
      */
     'insecure-random': true,
     'no-banned-terms': true,
-    'no-cookies': false, // disabled for now. This rule requires type information.
+    'no-cookies': true,
     'no-delete-expression': true,
     'no-disable-auto-sanitization': true,
     'no-document-domain': true,
