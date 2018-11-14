@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   defaultSeverity: 'warning',
-  extends: 'tslint:all',
+  extends: ['tslint:all', 'tslint-config-prettier'],
   rulesDirectory: [
     path.join(path.dirname(require.resolve('tslint-plugin-prettier')), './'),
     path.join(path.dirname(require.resolve('tslint-react')), 'rules'),
@@ -32,28 +32,6 @@ module.exports = {
      * tslint
      * tslint:all is in use by default.
      */
-    align: false,
-    'arrow-parens': false,
-    eofline: false,
-    'import-spacing': false,
-    indent: false,
-    'linebreak-style': false,
-    'max-line-length': false,
-    'new-parens': false,
-    'newline-per-chained-call': false,
-    'no-consecutive-blank-lines': false,
-    'no-irregular-whitespace': false,
-    'no-trailing-whitespace': false,
-    'number-literal-format': false,
-    'object-literal-key-quotes': false,
-    'one-line': false,
-    quotemark: false,
-    semicolon: false,
-    'space-before-function-paren': false,
-    'space-within-parens': false,
-    'trailing-comma': false,
-    'typedef-whitespace': false,
-    whitespace: false,
 
     /**
      * tslint-react
