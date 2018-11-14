@@ -32,9 +32,35 @@ module.exports = {
      * tslint
      * tslint:all is in use by default.
      */
+    'arrow-return-shorthand': true,
     'member-access': [true, 'no-public'],
     'no-console': false,
+    'member-ordering': [
+      true,
+      {
+        order: [
+          'static-field',
+          'static-method',
+          'instance-field',
+          'constructor',
+          'instance-method',
+        ],
+      },
+    ],
+    'no-boolean-literal-compare': false,
+    'no-console': false,
+    'no-implicit-dependencies': false,
+    'no-null-keyword': true,
+    'no-submodule-imports': false,
     'object-literal-sort-keys': false,
+    'prefer-template': [true, 'allow-single-concat'],
+    'triple-equals': [true, 'allow-undefined-check'],
+    'variable-name': [
+      true,
+      'ban-keywords',
+      'check-format',
+      'allow-pascal-case',
+    ],
 
     /**
      * tslint-react
