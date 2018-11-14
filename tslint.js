@@ -31,8 +31,8 @@ module.exports = {
     /**
      * tslint
      */
-    "array-type": {
-    options: ["array"],
+    'array-type': {
+      options: ['array'],
     },
     'arrow-return-shorthand': true,
     'member-access': [true, 'no-public'],
