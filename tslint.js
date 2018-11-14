@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   defaultSeverity: 'warning',
-  extends: ['tslint:all', 'tslint-config-prettier'],
+  extends: ['tslint:latest', 'tslint-config-prettier'],
   rulesDirectory: [
     path.join(path.dirname(require.resolve('tslint-plugin-prettier')), './'),
     path.join(path.dirname(require.resolve('tslint-react')), 'rules'),
