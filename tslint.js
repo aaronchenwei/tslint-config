@@ -106,7 +106,7 @@ module.exports = {
     ],
     'no-inner-html': true,
     'no-octal-literal': true,
-    'no-reserved-keywords': true,
+    'no-reserved-keywords': false,
     'no-string-based-set-immediate': true,
     'no-string-based-set-interval': true,
     'no-string-based-set-timeout': true,
