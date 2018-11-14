@@ -92,7 +92,7 @@ module.exports = {
      */
     'insecure-random': true,
     'no-banned-terms': true,
-    'no-cookies': true,
+    'no-cookies': false,
     'no-delete-expression': true,
     'no-disable-auto-sanitization': true,
     'no-document-domain': true,
@@ -111,7 +111,7 @@ module.exports = {
     'no-string-based-set-interval': true,
     'no-string-based-set-timeout': true,
     'non-literal-fs-path': true,
-    'non-literal-require': true,
+    'non-literal-require': false,
     'possible-timing-attack': true,
     'react-anchor-blank-noopener': true,
     'react-iframe-missing-sandbox': true,
