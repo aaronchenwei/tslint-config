@@ -2,6 +2,7 @@ const path = require('path');
 
 module.exports = {
   defaultSeverity: 'warning',
+  extends: 'tslint:all',
   rulesDirectory: [
     path.join(path.dirname(require.resolve('tslint-plugin-prettier')), './'),
     path.join(path.dirname(require.resolve('tslint-react')), 'rules'),
@@ -28,133 +29,9 @@ module.exports = {
     ],
 
     /**
-     * tslint:recommanded
+     * tslint
+     * tslint:all is in use by default.
      */
-    'adjacent-overload-signatures': true,
-    align: false,
-    'array-type': {
-      options: ['array'],
-    },
-    'arrow-parens': false,
-    'arrow-return-shorthand': true,
-    'ban-types': {
-      options: [
-        ['Object', 'Avoid using the `Object` type. Did you mean `object`?'],
-        [
-          'Function',
-          'Avoid using the `Function` type. Prefer a specific function type, like `() => void`.',
-        ],
-        ['Boolean', 'Avoid using the `Boolean` type. Did you mean `boolean`?'],
-        ['Number', 'Avoid using the `Number` type. Did you mean `number`?'],
-        ['String', 'Avoid using the `String` type. Did you mean `string`?'],
-        ['Symbol', 'Avoid using the `Symbol` type. Did you mean `symbol`?'],
-      ],
-    },
-    'callable-types': true,
-    'class-name': true,
-    'comment-format': {
-      options: ['check-space'],
-    },
-    curly: true,
-    'cyclomatic-complexity': false,
-    eofline: false,
-    forin: true,
-    'import-spacing': false,
-    indent: false,
-    'interface-name': {
-      options: ['always-prefix'],
-    },
-    'interface-over-type-literal': true,
-    'jsdoc-format': true,
-    'label-position': true,
-    'max-classes-per-file': {
-      options: [1],
-    },
-    'max-line-length': false,
-    'member-access': [true, 'no-public'],
-    'member-ordering': [
-      true,
-      {
-        order: [
-          'static-field',
-          'static-method',
-          'instance-field',
-          'constructor',
-          'instance-method',
-        ],
-      },
-    ],
-    'new-parens': false,
-    'no-angle-bracket-type-assertion': true,
-    'no-any': false,
-    'no-arg': true,
-    'no-bitwise': true,
-    'no-conditional-assignment': true,
-    'no-consecutive-blank-lines': false,
-    'no-console': false,
-    'no-construct': true,
-    'no-debugger': true,
-    'no-duplicate-super': true,
-    'no-empty': true,
-    'no-empty-interface': true,
-    'no-eval': true,
-    'no-internal-module': true,
-    'no-invalid-this': false,
-    'no-misused-new': true,
-    'no-namespace': true,
-    'no-null-keyword': true,
-    'no-parameter-properties': false,
-    'no-reference': true,
-    'no-reference-import': true,
-    'no-shadowed-variable': true,
-    'no-string-literal': true,
-    'no-string-throw': true,
-    'no-switch-case-fall-through': false,
-    'no-trailing-whitespace': false,
-    'no-unnecessary-initializer': true,
-    'no-unsafe-finally': true,
-    'no-unused-expression': true,
-    // disable this rule as it is very heavy performance-wise and not that useful
-    'no-use-before-declare': false,
-    'no-var-keyword': true,
-    'no-var-requires': true,
-    'object-literal-key-quotes': false,
-    'object-literal-shorthand': true,
-    'object-literal-sort-keys': false,
-    'one-line': false,
-    'one-variable-per-declaration': {
-      options: ['ignore-for-loop'],
-    },
-    'only-arrow-functions': {
-      options: ['allow-declarations', 'allow-named-functions'],
-    },
-    'ordered-imports': {
-      options: {
-        'import-sources-order': 'case-insensitive',
-        'module-source-path': 'full',
-        'named-imports-order': 'case-insensitive',
-      },
-    },
-    'prefer-const': true,
-    'prefer-for-of': true,
-    'prefer-template': [true, 'allow-single-concat'],
-    quotemark: false,
-    radix: true,
-    semicolon: false,
-    'space-before-function-paren': false,
-    'trailing-comma': false,
-    'triple-equals': {
-      options: ['allow-undefined-check'],
-    },
-    typedef: false,
-    'typedef-whitespace': false,
-    'typeof-compare': false,
-    'unified-signatures': true,
-    'use-isnan': true,
-    'variable-name': {
-      options: ['ban-keywords', 'check-format', 'allow-pascal-case'],
-    },
-    whitespace: false,
 
     /**
      * tslint-react
@@ -178,14 +55,13 @@ module.exports = {
     /**
      * tslint-microsoft-contrib
      */
-
     /**
      * Security Rules. The following rules should be turned on because they find security issues
      * or are recommended in the Microsoft Secure Development Lifecycle (SDL)
      */
     'insecure-random': true,
     'no-banned-terms': true,
-    'no-cookies': true,
+    'no-cookies': false, // disabled for now. This rule requires type information.
     'no-delete-expression': true,
     'no-disable-auto-sanitization': true,
     'no-document-domain': true,
@@ -347,7 +223,7 @@ module.exports = {
     'ter-no-irregular-whitespace': false,
     'ter-no-sparse-arrays': false,
     'valid-jsdoc': false,
-    'valid-typeof': true,
+    'valid-typeof': false, // tslint:typeof-compare
 
     // Best Practices
     'no-multi-spaces': false,
