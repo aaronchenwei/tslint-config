@@ -7,7 +7,7 @@ This is an opinioned `tslint` configuration with `prettier`.
 ## Installation
 
 ```sh
-yarn add --dev @aaronchenwei/tslint-config tslint-config-prettier tslint
+yarn add --dev @aaronchenwei/tslint-config tslint
 ```
 
 ## Usage
