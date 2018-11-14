@@ -30,8 +30,10 @@ module.exports = {
 
     /**
      * tslint
-     * tslint:all is in use by default.
      */
+    "array-type": {
+    options: ["array"],
+    },
     'arrow-return-shorthand': true,
     'member-access': [true, 'no-public'],
     'no-console': false,
