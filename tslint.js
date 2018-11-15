@@ -55,6 +55,7 @@ module.exports = {
      * Style
      * These rules enforce consistent style across your codebase
      */
+    'newline-before-return': true,
 
     /**
      * TODO - will migrate rules below to above categories
