@@ -33,6 +33,13 @@ module.exports = {
     /**
      * tslint
      */
+    /**
+     * Functionality
+     * These rules catch common errors in JS programming or otherwise confusing constructs that are prone to producing bugs
+     */
+    'no-for-in-array': true,
+
+    // TODO
     'array-type': {
       options: ['array'],
     },
@@ -159,7 +166,7 @@ module.exports = {
     'informative-docs': true,
     'max-func-body-length': false,
     'mocha-unneeded-done': false,
-    'no-for-in': true,
+    'no-for-in': false, // use tslint:no-for-in-array
     'no-function-expression': true,
     'no-multiline-string': false,
     'no-relative-imports': false, // TODO
@@ -260,7 +267,7 @@ module.exports = {
     'no-empty-character-class': false,
     'no-ex-assign': true,
     'no-extra-boolean-cast': true,
-    'no-extra-semi': false, // conflict to  tslint-config-prettier
+    'no-extra-semi': false, // conflict to tslint-config-prettier
     'no-inner-declarations': false,
     'no-invalid-regexp': false,
     'no-regex-spaces': false,
