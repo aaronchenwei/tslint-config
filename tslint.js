@@ -43,6 +43,7 @@ module.exports = {
      * Functionality
      * These rules catch common errors in JS programming or otherwise confusing constructs that are prone to producing bugs
      */
+    'ban-comma-operator': true,
     'no-for-in-array': true,
 
     /**
