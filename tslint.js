@@ -28,6 +28,8 @@ module.exports = {
       },
     ],
 
+    //================================================================================
+
     /**
      * tslint
      */
@@ -64,8 +66,11 @@ module.exports = {
       'allow-pascal-case',
     ],
 
+    //================================================================================
+
     /**
      * tslint-react
+     * URL: https://github.com/palantir/tslint-react
      */
     'jsx-alignment': false,
     'jsx-ban-elements': false,
@@ -83,8 +88,11 @@ module.exports = {
     'jsx-wrap-multiline': false,
     'jsx-use-translation-function': false,
 
+    //================================================================================
+
     /**
      * tslint-microsoft-contrib
+     * URL: https://github.com/Microsoft/tslint-microsoft-contrib
      */
     /**
      * Security Rules. The following rules should be turned on because they find security issues
@@ -214,10 +222,13 @@ module.exports = {
     'no-var-self': false,
     'react-tsx-curly-spacing': false,
 
+    //================================================================================
+
     /**
      * tslint-consistent-codestyle
+     * URL: https://github.com/ajafff/tslint-consistent-codestyle
      */
-    'const-parameters': false, // tslint:no-parameter-reassignment
+    'const-parameters': false, // refer to tslint:no-parameter-reassignment
     'early-exit': false,
     'ext-curly': false, // tslint:curly
     'naming-convention': false, // TODO
@@ -236,8 +247,11 @@ module.exports = {
     'prefer-const-enum': false, // TODO
     'prefer-while': false,
 
+    //================================================================================
+
     /**
      * tslint-eslint-rules
+     * URL: https://github.com/buzinas/tslint-eslint-rules
      */
     // Possible Errors
     'no-constant-condition': false, // tslint-microsoft-contrib:no-constant-condition
@@ -299,4 +313,6 @@ module.exports = {
       },
     ],
   },
+
+  //================================================================================
 };
