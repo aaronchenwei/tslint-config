@@ -126,7 +126,7 @@ module.exports = {
      * Security Rules. The following rules should be turned on because they find security issues
      * or are recommended in the Microsoft Secure Development Lifecycle (SDL)
      */
-    'insecure-random': true,
+    'insecure-random': false,
     'no-banned-terms': true,
     'no-cookies': false,
     'no-delete-expression': true,
