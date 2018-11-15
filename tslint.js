@@ -34,6 +34,12 @@ module.exports = {
      * tslint
      */
     /**
+     * TypeScript-specific
+     * These rules find errors related to TypeScript features
+     */
+    'no-parameter-reassignment': true,
+
+    /**
      * Functionality
      * These rules catch common errors in JS programming or otherwise confusing constructs that are prone to producing bugs
      */
