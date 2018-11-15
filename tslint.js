@@ -45,7 +45,20 @@ module.exports = {
      */
     'no-for-in-array': true,
 
-    // TODO
+    /**
+     * Maintainability
+     * These rules make code maintenance easier
+     */
+    'no-duplicate-imports': true,
+
+    /**
+     * Style
+     * These rules enforce consistent style across your codebase
+     */
+
+    /**
+     * TODO - will migrate rules below to above categories
+     */
     'array-type': {
       options: ['array'],
     },
