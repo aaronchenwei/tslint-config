@@ -15,6 +15,7 @@ module.exports = {
       path.dirname(require.resolve('tslint-eslint-rules')),
       'dist/rules'
     ),
+    path.join(path.dirname(require.resolve('tslint-misc-rules')), './'),
   ],
   rules: {
     /**
@@ -342,5 +343,23 @@ module.exports = {
     ],
   },
 
+  //================================================================================
+
+  /**
+   * tslint-misc-rules
+   * URL: https://github.com/jwbay/tslint-misc-rules
+   */
+  'class-method-newlines': true,
+  'react-lifecycle-order': [
+    true,
+    'componentWillMount',
+    'componentWillReceiveProps',
+    'componentDidMount',
+    'shouldComponentUpdate',
+    'componentWillUpdate',
+    'componentDidUpdate',
+    'render',
+    'componentWillUnmount',
+  ],
   //================================================================================
 };
