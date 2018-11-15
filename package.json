@@ -43,7 +43,7 @@
     "retext-usage": "^0.5.0",
     "tslint": "^5.11.0",
     "typescript": "^3.1.6",
-    "unified": "^7.0.1"
+    "unified": "^7.0.2"
   },
   "peerDependencies": {
     "husky": "^1.1.0",
