@@ -353,13 +353,13 @@ module.exports = {
   'react-lifecycle-order': [
     true,
     'componentWillMount',
-    'componentWillReceiveProps',
     'componentDidMount',
+    'componentWillReceiveProps',
     'shouldComponentUpdate',
     'componentWillUpdate',
     'componentDidUpdate',
-    'render',
     'componentWillUnmount',
+    'render',
   ],
   //================================================================================
 };
