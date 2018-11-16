@@ -83,7 +83,6 @@ module.exports = {
     'newline-before-return': true,
     'no-boolean-literal-compare': false,
     'prefer-template': [true, 'allow-single-concat'],
-    quotemark: false,
     'variable-name': [
       true,
       'ban-keywords',
