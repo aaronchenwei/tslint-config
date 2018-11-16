@@ -38,36 +38,7 @@ module.exports = {
      * TypeScript-specific
      * These rules find errors related to TypeScript features
      */
-    'no-parameter-reassignment': true,
-
-    /**
-     * Functionality
-     * These rules catch common errors in JS programming or otherwise confusing constructs that are prone to producing bugs
-     */
-    'ban-comma-operator': true,
-    'no-for-in-array': true,
-
-    /**
-     * Maintainability
-     * These rules make code maintenance easier
-     */
-    'no-duplicate-imports': true,
-
-    /**
-     * Style
-     * These rules enforce consistent style across your codebase
-     */
-    'newline-before-return': true,
-
-    /**
-     * TODO - will migrate rules below to above categories
-     */
-    'array-type': {
-      options: ['array'],
-    },
-    'arrow-return-shorthand': true,
     'member-access': [true, 'no-public'],
-    'no-console': false,
     'member-ordering': [
       true,
       {
@@ -80,14 +51,39 @@ module.exports = {
         ],
       },
     ],
-    'no-boolean-literal-compare': false,
+    'no-parameter-reassignment': true,
+
+    /**
+     * Functionality
+     * These rules catch common errors in JS programming or otherwise confusing constructs that are prone to producing bugs
+     */
+    'ban-comma-operator': true,
     'no-console': false,
+    'no-for-in-array': true,
     'no-implicit-dependencies': false,
     'no-null-keyword': true,
     'no-submodule-imports': false,
-    'object-literal-sort-keys': false,
-    'prefer-template': [true, 'allow-single-concat'],
     'triple-equals': [true, 'allow-undefined-check'],
+
+    /**
+     * Maintainability
+     * These rules make code maintenance easier
+     */
+    'no-duplicate-imports': true,
+    'object-literal-sort-keys': false,
+
+    /**
+     * Style
+     * These rules enforce consistent style across your codebase
+     */
+    'array-type': {
+      options: ['array'],
+    },
+    'arrow-return-shorthand': true,
+    'newline-before-return': true,
+    'no-boolean-literal-compare': false,
+    'prefer-template': [true, 'allow-single-concat'],
+    quotemark: false,
     'variable-name': [
       true,
       'ban-keywords',
