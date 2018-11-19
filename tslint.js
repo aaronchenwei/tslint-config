@@ -57,6 +57,7 @@ module.exports = {
      * Functionality
      * These rules catch common errors in JS programming or otherwise confusing constructs that are prone to producing bugs
      */
+    'await-promise': true,
     'ban-comma-operator': true,
     'no-console': false,
     'no-for-in-array': true,
