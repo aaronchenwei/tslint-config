@@ -84,7 +84,7 @@ module.exports = {
     'newline-before-return': true,
     'no-boolean-literal-compare': false,
     'object-literal-key-quotes': [true, 'as-needed'],
-    'prefer-template': [true, 'allow-single-concat'],
+    'prefer-template': true,
     'variable-name': [
       true,
       'ban-keywords',
