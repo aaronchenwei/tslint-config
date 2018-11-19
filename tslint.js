@@ -83,6 +83,7 @@ module.exports = {
     'arrow-return-shorthand': true,
     'newline-before-return': true,
     'no-boolean-literal-compare': false,
+    'object-literal-key-quotes': [true, 'as-needed'],
     'prefer-template': [true, 'allow-single-concat'],
     'variable-name': [
       true,
