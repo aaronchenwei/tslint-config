@@ -64,6 +64,7 @@ module.exports = {
     'no-implicit-dependencies': false,
     'no-null-keyword': true,
     'no-submodule-imports': false,
+    'no-this-assignment': [true, 'allow-destructuring'],
     'triple-equals': [true, 'allow-undefined-check'],
 
     /**
