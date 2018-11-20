@@ -8,17 +8,17 @@
 
 Following rules directory are in use for this `tslint-config` project.
 
-## [tslint](./tslint)
+### [tslint](./tslint)
 
-## [tslint-react](./tslint-react)
+### [tslint-react](./tslint-react)
 
-## [tslint-microsoft-contrib](./tslint-microsoft-contrib)
+### [tslint-microsoft-contrib](./tslint-microsoft-contrib)
 
-## [tslint-consistent-codestyle](./tslint-consistent-codestyle)
+### [tslint-consistent-codestyle](./tslint-consistent-codestyle)
 
-## [tslint-eslint-rules](./tslint-eslint-rules)
+### [tslint-eslint-rules](./tslint-eslint-rules)
 
-## tslint-plugin-prettier
+### tslint-plugin-prettier
 
 [`tslint-plugin-prettier`](https://github.com/ikatyang/tslint-plugin-prettier) runs `Prettier` as a `TSLint` rule and reports differences as individual `TSLint` issues.
 
@@ -31,3 +31,7 @@ Following rules directory are in use for this `tslint-config` project.
   },
 ],
 ```
+
+## VS Code and TSLint
+
+Please try this VS Code Tslint [extension](https://github.com/Microsoft/vscode-typescript-tslint-plugin)
