@@ -51,7 +51,7 @@ module.exports = {
         ],
       },
     ],
-    'no-import-side-effect': [true, { 'ignore-module': '(\\.html|\\.css)$' }],
+    'no-import-side-effect': [true, { 'ignore-module': '(\\.html|\\.css|\\.less)$' }],
     'no-parameter-reassignment': true,
 
     /**
