@@ -4,7 +4,6 @@ module.exports = {
   defaultSeverity: 'warning',
   extends: ['tslint:latest', 'tslint-config-prettier'],
   rulesDirectory: [
-    path.join(path.dirname(require.resolve('tslint-plugin-prettier')), './'),
     path.join(path.dirname(require.resolve('tslint-react')), 'rules'),
     path.join(path.dirname(require.resolve('tslint-microsoft-contrib')), './'),
     path.join(
@@ -18,19 +17,6 @@ module.exports = {
     path.join(path.dirname(require.resolve('tslint-misc-rules')), './'),
   ],
   rules: {
-    /**
-     * tslint-plugin-prettier
-     */
-    prettier: [
-      true,
-      {
-        singleQuote: true,
-        trailingComma: 'es5',
-      },
-    ],
-
-    //================================================================================
-
     /**
      * tslint
      */
@@ -51,7 +37,10 @@ module.exports = {
         ],
       },
     ],
-    'no-import-side-effect': [true, { 'ignore-module': '(\\.html|\\.css|\\.less)$' }],
+    'no-import-side-effect': [
+      true,
+      { 'ignore-module': '(\\.html|\\.css|\\.less)$' },
+    ],
     'no-parameter-reassignment': true,
 
     /**
