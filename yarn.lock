@@ -1690,9 +1690,9 @@ tsutils@^2.13.1, tsutils@^2.27.2, tsutils@^2.29.0:
     tslib "^1.8.1"
 
 tsutils@^3.0.0, tsutils@^3.1.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.5.0.tgz#42602f7df241e753a2105cc3627a664abf11f745"
-  integrity sha512-/FZ+pEJQixWruFejFxNPRSwg+iF6aw7PYZVRqUscJ7EnzV3zieI8byfZziUR7QjCuJFulq8SEe9JcGflO4ze4Q==
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.5.1.tgz#2219e5f0ad728aef94bd6634a5b4d8ce6b2e2eea"
+  integrity sha512-g9kwRQRpVDhjS3qfrDsnYv7QkBtsNRm1Ln5539hq9Y2ysndnlaWf8+3zTdaa1YB5ko7dpV9XATlP0KmYPsLc+Q==
   dependencies:
     tslib "^1.8.1"
 
