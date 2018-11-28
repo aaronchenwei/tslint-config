@@ -61,6 +61,7 @@ module.exports = {
      * Maintainability
      * These rules make code maintenance easier
      */
+    'max-classes-per-file': false,
     'no-duplicate-imports': true,
     'object-literal-sort-keys': false,
 
