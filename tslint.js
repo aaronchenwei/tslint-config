@@ -118,7 +118,7 @@ module.exports = {
      */
     'insecure-random': false,
     'no-banned-terms': true,
-    'no-cookies': false,
+    'no-cookies': true,
     'no-delete-expression': true,
     'no-disable-auto-sanitization': true,
     'no-document-domain': true,
@@ -164,6 +164,7 @@ module.exports = {
     'react-this-binding-issue': true,
     'react-unused-props-and-state': true,
     'use-named-parameter': true,
+    'use-simple-attributes': true,
 
     /**
      * Code Clarity. The following rules should be turned on because they make the code
