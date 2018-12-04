@@ -1643,10 +1643,10 @@ tslint-microsoft-contrib@6.0.0:
   dependencies:
     tsutils "^2.27.2 <2.29.0"
 
-tslint-misc-rules@3.5.0:
-  version "3.5.0"
-  resolved "https://registry.yarnpkg.com/tslint-misc-rules/-/tslint-misc-rules-3.5.0.tgz#9a9819538afc169d2f17ac63461b748faed9c6c8"
-  integrity sha512-YcdKkDjTObV8QGstqv5Ld48U+d0p+kMsPTQwAI9TCYGTCGFYLQ+RJiony/WceI3gfUXV35vqKSGYFvTYY4zvpw==
+tslint-misc-rules@3.5.1:
+  version "3.5.1"
+  resolved "https://registry.yarnpkg.com/tslint-misc-rules/-/tslint-misc-rules-3.5.1.tgz#d9e3d45bf93d9e559144940175c9a6d4a2776b1a"
+  integrity sha512-lJavjhwN0sOtmHHnliX9etgUpNuBZ7uJxgVpWR4++RNIjMNMR1VxlI2QxX+85/ifnpyB0cs0QVmVVIiUOgxaJA==
   dependencies:
     detect-newline "^2.1.0"
 

@@ -332,25 +332,25 @@ module.exports = {
         allowUnboundThis: true,
       },
     ],
+
+    //================================================================================
+
+    /**
+     * tslint-misc-rules
+     * URL: https://github.com/jwbay/tslint-misc-rules
+     */
+    'class-method-newlines': true,
+    'react-lifecycle-order': [
+      true,
+      'componentWillMount',
+      'componentDidMount',
+      'componentWillReceiveProps',
+      'shouldComponentUpdate',
+      'componentWillUpdate',
+      'componentDidUpdate',
+      'componentWillUnmount',
+      'render',
+    ],
   },
-
-  //================================================================================
-
-  /**
-   * tslint-misc-rules
-   * URL: https://github.com/jwbay/tslint-misc-rules
-   */
-  'class-method-newlines': true,
-  'react-lifecycle-order': [
-    true,
-    'componentWillMount',
-    'componentDidMount',
-    'componentWillReceiveProps',
-    'shouldComponentUpdate',
-    'componentWillUpdate',
-    'componentDidUpdate',
-    'componentWillUnmount',
-    'render',
-  ],
   //================================================================================
 };
