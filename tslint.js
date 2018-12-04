@@ -62,6 +62,7 @@ module.exports = {
      * These rules make code maintenance easier
      */
     'max-classes-per-file': false,
+    'no-default-export': true,
     'no-duplicate-imports': true,
     'object-literal-sort-keys': false,
 
@@ -75,7 +76,7 @@ module.exports = {
     'arrow-return-shorthand': true,
     'newline-before-return': true,
     'no-boolean-literal-compare': false,
-    'object-literal-key-quotes': [true, 'as-needed'],
+    'object-literal-key-quotes': false,
     'prefer-template': true,
     'variable-name': [
       true,

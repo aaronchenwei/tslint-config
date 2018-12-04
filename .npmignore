@@ -1,4 +1,5 @@
 docs/
 
 .editorconfig
+.remarkrc.js
 yarn.lock
