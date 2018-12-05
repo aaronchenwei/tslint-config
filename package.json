@@ -3,7 +3,7 @@
   "description": "A sharable TSLint configuration",
   "version": "1.2.4",
   "license": "MIT",
-  "main": "tslint.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/aaronchenwei/tslint-config.git"
@@ -15,7 +15,7 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "tslint-check": "tslint-config-prettier-check ./tslint.js"
+    "tslint-check": "tslint-config-prettier-check ./index.js"
   },
   "dependencies": {
     "tslint-config-prettier": "1.17.0",
