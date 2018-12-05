@@ -83,6 +83,7 @@ module.exports = {
       'ban-keywords',
       'check-format',
       'allow-pascal-case',
+      'allow-leading-underscore',
     ],
 
     //================================================================================
