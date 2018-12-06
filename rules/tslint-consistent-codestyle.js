@@ -11,12 +11,12 @@ module.exports = {
   'no-as-type-assertion': false, // TODO
   'no-accessor-recursion': true,
   'no-collapsible-if': false,
-  'no-else-after-return': false, // TODO
+  'no-else-after-return': true,
   'no-return-undefined': [true, 'allow-void-expression'],
   'no-static-this': false,
   'no-unnecessary-else': false, // TODO
   'no-unnecessary-type-annotation': false,
-  'no-unused': false,
+  'no-unused': true,
   'no-var-before-return': false,
   'object-shorthand-properties-first': true,
   'parameter-properties': false, // TODO
