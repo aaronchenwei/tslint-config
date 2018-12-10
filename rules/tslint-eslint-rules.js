@@ -7,23 +7,23 @@ module.exports = {
   // Possible Errors
   'no-constant-condition': false, // tslint-microsoft-contrib:no-constant-condition
   'no-control-regex': false,
-  'no-duplicate-case': false,
+  'no-duplicate-case': false, // tslint:no-duplicate-switch-case
   'no-empty-character-class': false,
   'no-ex-assign': true,
   'no-extra-boolean-cast': true,
-  'no-extra-semi': false, // conflict to tslint-config-prettier
+  'no-extra-semi': false, // conflict with tslint-config-prettier
   'no-inner-declarations': false,
   'no-invalid-regexp': false,
   'no-regex-spaces': false,
   'no-unexpected-multiline': false,
   'ter-no-irregular-whitespace': false,
-  'ter-no-sparse-arrays': false,
+  'ter-no-sparse-arrays': false, // tslint:no-sparse-arrays
   'valid-jsdoc': false,
   'valid-typeof': false, // tslint:typeof-compare
 
   // Best Practices
   'no-multi-spaces': false,
-  'ter-no-proto': false, // TODO
+  'ter-no-proto': true,
   'ter-no-script-url': true,
   'ter-no-self-compare': true,
 
