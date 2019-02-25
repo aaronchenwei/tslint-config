@@ -53,7 +53,7 @@ module.exports = {
   'no-unnecessary-override': true,
   'no-with-statement': true,
   'promise-must-complete': true,
-  'react-this-binding-issue': true,
+  "react-this-binding-issue": [true, { "allow-anonymous-listeners": true }],
   'react-unused-props-and-state': true,
   'use-named-parameter': true,
   'use-simple-attributes': true,
