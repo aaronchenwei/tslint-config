@@ -35,10 +35,10 @@ module.exports = {
   'no-console': false,
   'no-for-in-array': true,
   'no-implicit-dependencies': false,
-  'no-null-keyword': true,
+  'no-null-keyword': false,
   'no-submodule-imports': false,
   'no-this-assignment': [true, 'allow-destructuring'],
-  'triple-equals': [true, 'allow-undefined-check'],
+  'triple-equals': [true, 'allow-undefined-check', 'allow-null-check'],
 
   /**
    * Maintainability
